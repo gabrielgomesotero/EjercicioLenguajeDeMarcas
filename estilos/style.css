@@ -1,59 +1,74 @@
 /* =========================
    CSS GIMNASIO ASIR
-   ========================= */
-/* Selector Universal */
+   ========================= /
+/ Selector Universal */
 * {
-    box-sizing: border-box; 
-    padding: 0px;
-    margin: 0px;
+  box-sizing: border-box; 
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    width: auto;
-    flex-direction: column;
-    display: flex;
-    padding: 10px;
-    background-color: aquamarine;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+  background-color: aquamarine;
 }
 
-#headerprincipal {
-    flex-direction: row;
-    display: flex;
-    background-color: bisque;
-    height: 125px;
+#headerPrincipal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  background-color: rgb(166, 236, 236);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#tituloEncabezado {
+  display: flex;
+  align-items: center;
 }
 
-#tituloencabezado {
-    background-color: aqua;
-    flex: 3;
-    display:inline-block;
-    text-align: center;
+#tituloEncabezado img {
+  height: 60px;
+  width: auto;
+  margin-right: 15px;
+  border-radius: 50%;
 }
 
-#RegistrarseEncabezado {
-    background-color: rgb(166, 236, 236);
-    flex: 1;
-    font-size: 18px;
+#tituloEncabezado h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
 }
 
-.Encabezado {
-    flex-direction: row;
-    display: flex;
+.EncabezadoLinks {
+  display: flex;
+  gap: 15px;
 }
 
-.algoprueba {
-    height: 80px;
-    padding: 10px;
+.navBoton {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+.navBoton:hover {
+  background-color: #d50f0f;
 }
 
 #Registrarse {
-    flex: 2;
-    background-color: white;
-}
-
-#IniciarSesion {
-    flex: 2;
-    background-color: white;
+  background-color: blue;
+  color: white;
+  border: none;
 }
 
 #piepaginaId {
@@ -89,4 +104,8 @@ body {
 .imagenfooter img {
     width: 100px;
     height: 90px;
+}
+
+#Registrarse:hover {
+  background-color: red;
 }
