@@ -4,7 +4,8 @@
 /* Selector Universal */
 * {
     box-sizing: border-box; 
-    padding: 10px;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
@@ -53,4 +54,39 @@ body {
 #IniciarSesion {
     flex: 2;
     background-color: white;
+}
+
+#piepaginaId {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: bisque;
+}
+#footer1{
+    display: flex;
+    background-color: rgb(164, 164, 219);
+}
+#footer2{
+    display: flex;
+    background-color: blueviolet;
+}
+.textoequipo{
+    font-weight: bold;
+}
+.contactos {
+    flex: 3;
+}
+.autor {
+    flex: 1;
+}
+.autor {
+    font-weight: bold;
+    text-align: center;
+    justify-content: baseline;
+    padding-top: 60px;
+}
+.imagenfooter img {
+    width: 100px;
+    height: 90px;
 }
