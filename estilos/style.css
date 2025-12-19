@@ -1,0 +1,56 @@
+/* =========================
+   CSS GIMNASIO ASIR
+   ========================= */
+/* Selector Universal */
+* {
+    box-sizing: border-box; 
+    padding: 10px;
+}
+
+body {
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+#headerprincipal {
+    flex-direction: row;
+    display: flex;
+    background-color: bisque;
+    height: 125px;
+}
+
+#tituloencabezado {
+    background-color: aqua;
+    flex: 3;
+    display:inline-block;
+    text-align: center;
+}
+
+#RegistrarseEncabezado {
+    background-color: rgb(166, 236, 236);
+    flex: 1;
+    font-size: 18px;
+}
+
+.Encabezado {
+    flex-direction: row;
+    display: flex;
+}
+
+.algoprueba {
+    height: 80px;
+    padding: 10px;
+}
+
+#Registrarse {
+    flex: 2;
+    background-color: white;
+}
+
+#IniciarSesion {
+    flex: 2;
+    background-color: white;
+}
