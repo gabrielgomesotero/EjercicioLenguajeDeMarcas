@@ -13,9 +13,11 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 100px;
-  background-color: aquamarine;
+  background-color: white;
 }
-
+/*
+   SECCIÓN NAVBAR 
+   */
 #headerPrincipal {
   position: fixed;
   top: 0;
@@ -101,7 +103,138 @@ body {
 .btn-register:hover {
   box-shadow: 0 6px 20px rgba(213, 15, 15, 0.6);
 }
+/*
+   SECCIÓN PINCIPAL
+   */
+.presentacion-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
 
+.imagen-marco {
+  flex: 1;
+  position: relative;
+}
+
+.img-principal {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.texto-contenido {
+  flex: 1;
+  padding: 20px;
+}
+
+.texto-contenido h2 {
+  font-size: 2.5rem;
+  color: #240b36;
+  margin-bottom: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.texto-contenido p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/*
+   SECCIÓN PLANES
+*/
+.seccion-planes {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.titulo-planes h2 {
+  color: #240b36;
+  font-size: 40px;
+}
+
+.titulo-planes p {
+  padding-bottom: 50px;
+}
+
+.planes-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.plan-header {
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.plan-header h3 {
+  color: #555;
+  margin: 0;
+}
+
+.precio {
+  color: #240b36;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.plan-imagen img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.plan-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-lista li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+.btn-plan {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid #240b36;
+  color: #240b36;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-plan:hover {
+  background-color: #240b36;
+  color: white;
+}
+
+
+/*
+   SECCIÓN FOOTER 
+   */
 #piepaginaId {
   font-size: large;
   display: flex;
@@ -135,8 +268,4 @@ body {
 .imagenfooter img {
   width: 100px;
   height: 90px;
-}
-
-#Registrarse:hover {
-  background-color: red;
 }
