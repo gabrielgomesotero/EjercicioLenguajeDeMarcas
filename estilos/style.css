@@ -181,8 +181,11 @@ body {
   border-radius: 20px;
   box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
   object-fit: cover;
+  transition: transform 0,3s ease, box-shadow 0,3s ;
 }
-
+.aside img:hover {
+  transform: scale(1.1);
+}
 /*
    SECCIÓN PLANES
 */
