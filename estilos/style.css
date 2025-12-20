@@ -3,7 +3,7 @@
    ========================= /
 / Selector Universal */
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
@@ -23,90 +23,120 @@ body {
   width: 100%;
   height: 80px;
   z-index: 1000;
-  background-color: rgb(166, 236, 236);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 0 20px;
+
+  background-color: rgba(20, 20, 20, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 #tituloEncabezado {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 #tituloEncabezado img {
-  height: 60px;
-  width: auto;
-  margin-right: 15px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #d50f0f;
 }
 
 #tituloEncabezado h1 {
-  font-size: 1.5rem;
-  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ffffff;
   margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .EncabezadoLinks {
   display: flex;
-  gap: 15px;
+  align-items: center;
+  gap: 20px;
 }
 
 .navBoton {
-  background-color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: 10px 25px;
+  border-radius: 30px;
   cursor: pointer;
-  font-weight: bold;
-}
-.navBoton:hover {
-  background-color: #d50f0f;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#Registrarse {
-  background-color: blue;
+.navBoton p {
+  margin: 0;
+}
+
+.btn-login {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-login:hover {
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-register {
+  background: linear-gradient(135deg, #d50f0f 0%, #ff4d4d 100%);
   color: white;
   border: none;
+  box-shadow: 0 4px 15px rgba(213, 15, 15, 0.4);
+}
+
+.btn-register:hover {
+  box-shadow: 0 6px 20px rgba(213, 15, 15, 0.6);
 }
 
 #piepaginaId {
-    font-size: large;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    background-color: bisque;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: bisque;
 }
-#footer1{
-    display: flex;
-    background-color: rgb(164, 164, 219);
+#footer1 {
+  display: flex;
+  background-color: rgb(164, 164, 219);
 }
-#footer2{
-    display: flex;
-    background-color: blueviolet;
+#footer2 {
+  display: flex;
+  background-color: blueviolet;
 }
-.textoequipo{
-    font-weight: bold;
+.textoequipo {
+  font-weight: bold;
 }
 .contactos {
-    flex: 3;
+  flex: 3;
 }
 .autor {
-    flex: 1;
+  flex: 1;
 }
 .autor {
-    font-weight: bold;
-    text-align: center;
-    justify-content: baseline;
-    padding-top: 60px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: baseline;
+  padding-top: 60px;
 }
 .imagenfooter img {
-    width: 100px;
-    height: 90px;
+  width: 100px;
+  height: 90px;
 }
 
 #Registrarse:hover {
   background-color: red;
 }
-
