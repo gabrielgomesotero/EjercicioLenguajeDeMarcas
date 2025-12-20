@@ -151,6 +151,38 @@ body {
   margin-bottom: 30px;
 }
 
+#contenidoPrincipalId  {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.mainlado {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.aside {
+  color: #240b36;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  margin: 0%;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+}
+.aside img {
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
 /*
    SECCIÓN PLANES
 */
@@ -172,7 +204,7 @@ body {
 .planes-contenedor {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 .plan-card {
@@ -240,32 +272,48 @@ body {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  background-color: bisque;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
 }
 #footer1 {
   display: flex;
-  background-color: rgb(164, 164, 219);
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
 }
 #footer2 {
   display: flex;
-  background-color: blueviolet;
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.3);
 }
 .textoequipo {
   font-weight: bold;
+  color: #240b36;
 }
 .contactos {
   flex: 3;
+  color: #240b36;
+}
+.equipo {
+  color: #240b36;
 }
 .autor {
   flex: 1;
 }
 .autor {
+  color: #240b36;
   font-weight: bold;
   text-align: center;
   justify-content: baseline;
   padding-top: 60px;
+  font-size: small;
 }
 .imagenfooter img {
   width: 100px;
   height: 90px;
+  border-radius: 50px;
+  border: solid;
+  border-color: #d50f0f;
 }
